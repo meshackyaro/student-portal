@@ -1,0 +1,35 @@
+.formContainer {
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formContainer input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formContainer button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formContainer button:hover {
+  background-color: #45a049;
+}
+
+.formContainer a {
+  color: #0066cc;
+  text-decoration: none;
+}
