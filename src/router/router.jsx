@@ -1,5 +1,6 @@
 import Layout from "../component/layout/Layout";
 import Login from "../pages/login/Login";
+import Portal from "../pages/portal/Portal";
 
 export const ROUTES = [
   {
@@ -9,5 +10,9 @@ export const ROUTES = [
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/portal",
+    element: <Portal />,
   },
 ];
